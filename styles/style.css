@@ -1,0 +1,150 @@
+body {
+  font-family: "Agdasima", sans-serif;
+}
+/*-----------------------------------------------------------------Barra lateral-----------------------------------------------------------------*/
+
+body::-webkit-scrollbar {
+  width: 3px;               
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0);   
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);  
+  border-radius: 20px;     
+
+}
+/*-----------------------------------------------------------------NAV-----------------------------------------------------------------*/
+
+header nav {
+  height: max-content;
+  padding-bottom: 0.5rem;
+  transition: ease-out 0.3s;
+}
+header nav > div {
+  padding-bottom: 0.5rem;
+}
+
+.boton-nav {
+  border: none;
+  padding: 0;
+}
+.boton-nav:focus {
+  box-shadow: none;
+}
+.nav-link {
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: 750ms;
+  color: white;
+}
+.nav-link:hover {
+  text-decoration-color: white;
+  color: white;
+}
+nav img {
+  width: 15%;
+}
+/*-----------------------------------------------------------------Pagina-----------------------------------------------------------------*/
+.pag-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(15, 15, 15);
+  
+}
+
+.img-titulo {
+  width: 100%;
+  filter: brightness(0.5);
+}
+
+.degrade-img-tit {
+
+  width: 100%;
+  height: 50px;
+
+  background: linear-gradient(0deg, rgba(15, 15, 15, 1) 26%, rgba(34, 193, 195, 0) 100%);
+  bottom: 0;
+  translate:0 -3rem;
+}
+
+.cont-img-tit {
+  height: fit-content;
+  position: relative;
+}
+
+
+h1 {
+  margin-top: 20%;
+  font-size: 7rem;
+  color: white;
+  position: absolute;
+}
+
+.Tracker{
+  text-decoration: underline solid .2rem #d40000;
+
+}
+.pag-dec {
+  translate:0 -3.1rem;
+  height: max-content;
+  
+
+}
+.pag-flex{
+  width: 80%;
+  margin: auto;
+  
+}
+
+.pag-dec h2{
+  font-size: 3rem;
+  border-bottom: .2rem #d40000 solid;
+}
+.pag-dec p, .pag-dec ul, .pag-dec h3, .pag-dec span{
+  font-size: 2rem;
+}
+.pag-dec h3{
+  text-decoration: underline 1px white;
+}
+.pag-dec {
+  color: white;
+}
+.contenido{
+  background-color: rgb(34, 34, 34);
+  border-radius: .4rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+.pag-dec img{
+  border-radius: 1rem;
+  border: 2px solid white;
+  width: 100%;
+}
+/*Ferias*/
+.ferias .row{
+gap: 1rem;
+justify-content: center;
+}
+
+/*Contacto*/
+.objetivos img{
+  width: 30%;
+}
+@media (max-width: 768px) {
+  h1{
+    font-size: 4rem;
+  }
+  .pag-flex{
+    width: 95%;
+  }
+}
+@media (max-width: 992px) {
+  .pag-dec span{
+    font-size: 1.5;
+  }
+}
