@@ -51,8 +51,8 @@ sr.reveal('.ferias img', {
 
 
 //Conocimientos
-sr.reveal('.tecnologia', {
-  duration: 1000,
+sr.reveal('.Tracker', {
+  duration: 3000,
   opacity: 0.1,
   scale: 0.5,
   reset:true

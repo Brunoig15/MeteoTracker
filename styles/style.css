@@ -105,8 +105,13 @@ h1 {
   font-size: 3rem;
   border-bottom: .2rem #d40000 solid;
 }
-.pag-dec p, .pag-dec ul, .pag-dec h3, .pag-dec span{
+.pag-dec p, .pag-dec ul, .pag-dec h3, .pag-dec a, .pag-dec span{
   font-size: 2rem;
+  text-decoration: none;
+  color: white;
+}
+.pag-dec a:hover{
+color: rgb(189, 189, 189);
 }
 .pag-dec h3{
   text-decoration: underline 1px white;
